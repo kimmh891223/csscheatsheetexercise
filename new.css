@@ -1,0 +1,73 @@
+* {
+    background-color: rgb(58, 60, 61);
+}
+
+.header {
+    text-align: center;
+    color: violet;
+}
+
+#header-para {
+    color: white;
+    border: 1px solid rgb(58, 60, 61);
+}
+
+
+.card-title-box {
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 300px;
+    color: violet;
+    text-indent: 10px;
+    position:relative;
+    bottom: 50px;
+    left: 10px;
+}
+
+main {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section {
+    
+    border: 2px dotted lightgray;
+    border-radius: 3px;
+    padding: 15px;
+    width: 330px;
+    height: 350px;
+    color: violet;
+    margin: 10px;
+}
+
+code {
+    color: white;
+    background-color: violet;
+    position:relative;
+    bottom: 20px;
+}
+
+.para {
+    position:relative;
+    bottom: 7vh;
+}
+
+.card {
+    white-space:pre-wrap;
+    border-radius: 10px;
+    padding: 10px;
+    position:relative;
+    bottom:40px;
+    width: 93%;
+    height:30vh;
+    background-color: violet;
+    color: white;
+    margin:5 px;
+}
+
+
+footer {
+    color: violet;
+}
